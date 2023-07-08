@@ -274,7 +274,7 @@ chat = ConversationChain(llm=llm, memory=memory, verbose=True)
 
 
 # @markdown Chat prompt.
-display(Markdown(chat.prompt))
+chat.prompt
 
 
 # In[ ]:
